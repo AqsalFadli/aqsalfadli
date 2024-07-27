@@ -1,0 +1,642 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9e9999;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 10vh;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+@media (max-width: 412px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: white;
+        width: 200px;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+@media (min-width: 412px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 350px;
+    padding: 80px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: #ecf0f1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    font-size: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar .feature-item {
+    background-color: #1f2d3d;
+    padding: 70px 80px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.sidebar .feature-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .feature-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.sidebar .feature-item p {
+    color: #bdc3c7;
+    font-size: 14px;
+    display: flex;
+}
+
+.sidebar .feature-item:hover {
+    background-color: #273c4f;
+    transform: translateY(-5px);
+}
+
+
+.hero {
+    background-image: url('WhatsApp Image 2024-07-25 at 01.35.05.jpeg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.konten {
+    background-color: #fff;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.konten img {
+    width: 50%;
+}
+
+.property-item {
+    margin-bottom: 20px;
+}
+
+.products{
+    background-color: #fff;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-item{
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.section.active {
+    display: block;
+    opacity: 1;
+}
+
+.section .product-item img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form Styling */
+#transaction {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 40px 258px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 0px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#transaction h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.form-group input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.button1 {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.button:active {
+    background-color: #1c598a;
+}
+
+/* Invoice Styling */
+.invoice-header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.invoice-header h2 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.invoice-date {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #bdc3c7;
+}
+
+.invoice-body {
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-body p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.invoice-body strong {
+    color: #2c3e50;
+}
+
+.invoice-body p:last-child {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+#invoice-container {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Existing styles for the section and products */
+#products {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+#products h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 80%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin: 15px 0;
+}
+
+.product-item p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.product-item .button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.product-item .button:hover {
+    background-color: #2980b9;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-item img:hover {
+    transform: scale(1.05);
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-section {
+    background-color: #f4f4f4; /* Warna latar belakang abu-abu lembut */
+    color: #333; /* Warna teks utama */
+    padding: 40px; /* Ruang di sekitar teks */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    margin: 20px; /* Jarak dari elemen lain */
+}
+
+.about-section h2 {
+    font-size: 2.5em; /* Ukuran font besar untuk judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+    color: #2c3e50; /* Warna judul */
+    text-align: center; /* Rata tengah judul */
+    font-weight: bold; /* Bold untuk judul */
+}
+
+.about-section p {
+    font-size: 1.1em; /* Ukuran font lebih besar */
+    line-height: 1.6; /* Jarak antar baris teks */
+    text-align: justify; /* Rata kiri-kanan teks */
+    margin: 0 auto; /* Rata tengah teks di dalam elemen */
+    max-width: 800px; /* Lebar maksimum teks */
+}
+
+.about-section strong {
+    color: #3498db; /* Warna untuk teks tebal */
+    font-weight: bold; /* Bold untuk teks tebal */
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px; /* Ruang lebih kecil di layar kecil */
+    }
+
+    .about-section h2 {
+        font-size: 2em; /* Ukuran font lebih kecil di layar kecil */
+    }
+
+    .about-section p {
+        font-size: 1em; /* Ukuran font lebih kecil di layar kecil */
+    }
+}
+
+/* Section styling */
+#contact {
+    padding: 40px 275px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.contact-header h4 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+    border: 5px solid #2c3e50;
+}
+
+.marquee-container {
+    max-width: 950px; /* Batas maksimum lebar marquee */
+    margin: 20px auto; /* Margin otomatis untuk memastikan pusat */
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee img {
+    height: 100px; /* Tinggi gambar */
+    margin-right: 20px; /* Jarak antar gambar */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.marquee img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .konten {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header img {
+        margin: 0 0 10px 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .sidebar, .konten, .hero, .products, .about-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .sidebar {
+        margin-right: 0;
+    }
+
+    .product-item img, .section .product-item img {
+        width: 100%;
+    }
+
+    #transaction {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .sidebar, .konten, .hero, .products, .about-section, .button, #transaction, .product-item, .about-item, .property-item {
+        padding: 0px;
+    }
+
+    .button, .button1 {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .sidebar .feature-item img, .product-item img, .about-item img, .section .product-item img {
+        width: 10%;
+    }
+
+    header img {
+        height: 8vh;
+    }
+
+    .sidebar {
+        padding: 5px;
+    }
+
+    .konten, .hero, .products, .about-section, .property-item {
+        padding: 5px;
+    }
+}
