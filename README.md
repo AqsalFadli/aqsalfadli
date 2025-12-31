@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=000000&height=150&section=header&text=AQSHAL%20FADLILA%20NUGRAHA&fontSize=40&fontColor=ffffff&animation=twinkling" />
+  <img src="https://i.pinimg.com/736x/b1/c8/19/b1c8190112fbf7774ebf7768bec7b82c.jpg" width="100%" />
 </p>
+
+<h1 align="center">AQSHAL FADLILA NUGRAHA</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GSA%20UNIKOM-2025--2026-white?style=flat-square&logo=google&logoColor=black" />
