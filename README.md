@@ -11,7 +11,7 @@
 
 ### 💻 Technical Stack
 
-<table>
+<table align="center">
   <tr align="center">
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" />
