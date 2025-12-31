@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://i.pinimg.com/1200x/55/91/ce/5591ce650cbd75ae1bfe9b77db6792b3.jpg" width="100%" />
+  <img src="https://i.pinimg.com/736x/7c/cc/b7/7cccb7eaa4f8216e31ecc2e14ca38ba6.jpg" width="50%" />
 </p>
-
-<h1 align="center">AQSAL FADLILA NUGRAHA</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GSA%20UNIKOM-2025--2026-white?style=flat-square&logo=google&logoColor=black" />
