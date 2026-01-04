@@ -66,7 +66,7 @@
 ---
 
 <p align="center">
-  <a href="https://linkedin.com/in/aqsal-fadlila-nugraha">
+  <a href="www.linkedin.com/in/aqsal-fadli-9aa08028a">
     <img src="https://img.shields.io/badge/Connect_on_LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
