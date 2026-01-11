@@ -14,44 +14,27 @@
 <table align="center">
   <tr align="center">
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=cpp" width="40" height="40" alt="C++" />
       <br>C/C++
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=php" width="40" height="40" alt="PHP" />
+      <br>PHP
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JavaScript" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=kotlin" width="40" height="40" alt="Kotlin" />
-      <br>Kotlin
+      <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" />
+      <br>Python
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=opencv" width="40" height="40" alt="OpenCV" />
-      <br>OpenCV
+      <img src="https://skillicons.dev/icons?i=mysql" width="40" height="40" alt="MySQL" />
+      <br>MySQL
     </td>
   </tr>
 </table>
-
----
-
-### 🚀 Current Focus & Engineering Interests
-- **Computer Vision:** Developing automated photography systems using Python and OpenCV.
-- **Mobile Development:** Building robust applications using Kotlin.
-- **Creative Tech:** Bridging the gap between 3D Design (Blender) and code.
-- **AI Integration:** Implementing Machine Learning models for real-world creative tools.
-
----
-
-### 📂 Highlighted Project
-> **[Jonas Smart Studio Assistant](https://github.com/AqsalFadli/smart-studio-assistant-cv)**
-> *Automated Face Detection, Blur Analysis, and Smart Cropping system for professional photography retail.*
-> `Python` `OpenCV` `NumPy`
-
----
 
 ### 📊 Engineering Metrics
 <p align="center">
